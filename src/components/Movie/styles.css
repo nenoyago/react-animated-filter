@@ -1,0 +1,32 @@
+.movie:hover .movieTitle {
+  color: #fc4737;
+}
+
+.movie:hover .movieImage {
+  filter: grayscale(0.5);
+  border-color: #e1e1e6;
+}
+
+.movieTitle {
+  font-size: 0.875rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 95%;
+  color: #e1e1e6;
+}
+
+.movieImage {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+
+  border: 2px solid transparent;
+}
+
+.movieTitle,
+.movieImage {
+  transition: all 0.5s ease-in-out;
+}

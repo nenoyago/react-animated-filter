@@ -1,0 +1,16 @@
+#movies .title {
+  font-size: 1.75rem;
+  color: #fc4737;
+}
+
+#movies .title span {
+  color: #e1e1e6;
+  text-decoration: underline;
+}
+
+#movies .popularMovies {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  column-gap: 1.5rem;
+  row-gap: 2rem;
+}
